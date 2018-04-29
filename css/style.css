@@ -1,0 +1,25 @@
+/*-----Base Style-----*/
+
+* {
+	box-sizing: border-box;
+}
+
+.name {
+  background: black;
+  font-family: 'Merriweather', serif;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  padding: 1.5em 0.8em;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+/*-----Form Fields-----*/
+
+
+
+/*-----Media Queries-----*/
+
+@media (min-width: 768px) {
+
+}
