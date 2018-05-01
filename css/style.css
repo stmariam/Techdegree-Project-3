@@ -159,10 +159,14 @@ button:hover {
 		width: 20%;
 	}
 
+	.part-1 input:not(#zip-code),
+	#state {
+		width: 75%;
+	}
+
 	.form-row > label {
 		width: 25%;
 	}
-
 
 
 }
