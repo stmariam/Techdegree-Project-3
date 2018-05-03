@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
     <link rel="stylesheet" href="font">
-    <meta name="viewport" content="width=device-width", initial-scale=1>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
   </head>
 
   <body>
@@ -66,7 +66,7 @@
 
       </fieldset>
 
-      <fieldset class="part-2" clearfix>
+      <fieldset class="part-2">
         <legend class="header">Newsletter</legend>
 
         <label class="select">Select the newsletter you would like to receive</label><br>
@@ -77,17 +77,18 @@
         </div>
 
         <label class="format">Newsletter format</label><br>
-        <div c;ass="radio-style">
+        <div class="radio-style">
           <input type="radio" id="format_html" value="format_html" name="newsletter_format"><label for="format_html">HTML</label><br>
           <input type="radio" id="plain_text" value="plain_text" name="newsletter_format"><label for="plain_text">Plain Text</label><br>
         </div>
 
         <label for="topic" class="other">Other topics you'd like to hear about</label>
-        <textarea id="topic" name="user_topic" placeholder="Write here..." clearfix></textarea>
+        <textarea id="topic" name="user_topic" placeholder="Write here..."></textarea>
 
       </fieldset>
-
-      <button type="submit">Sign Up</button>
+      <div class="submit-button">
+        <button type="submit">Sign Up</button>
+      </div>
     </form>
 
   <footer class="footer">

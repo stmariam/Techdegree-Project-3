@@ -4,10 +4,17 @@
 	box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+	max-width: 100%;
+}
+
 .main-header,
 .invitation,
 .offer,
-.footer {
+.footer,
+.submit-button {
 	text-align: center;
 }
 
@@ -15,7 +22,7 @@
   background: black;
   font-family: 'Merriweather', serif;
   color: white;
-  margin-top: 0;
+  margin: 0;
   padding: 1.5em 0.8em;
   font-size: 23px;
   text-transform: uppercase;
@@ -30,7 +37,7 @@
 
 .offer {
 	color: grey;
-	margin: 14px 10px 0;
+	margin: 14px 0 0;
 	padding-bottom: 30px;
 	margin-bottom: 3px;
 	border-bottom: solid black 3px;
@@ -114,14 +121,12 @@ textarea {
 	border-radius: 5px;
 }
 
-button[type="submit"] {
+ button[type="submit"] {
 	background: #4da6ff;
 	height: 3.5em;
-	width: 90%;
+	width: 80%;
 	border-radius: 3px;
 	border: none;
-	margin-left: 15px;
-	margin-right: 10px;
 	color: white;
 	font-family: 'Merriweather', serif;
 	font-size: 1.2em;
@@ -167,6 +172,4 @@ button:hover {
 	.form-row > label {
 		width: 25%;
 	}
-
-
 }
